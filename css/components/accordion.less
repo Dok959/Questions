@@ -1,0 +1,60 @@
+// main: ../style.css, out: false
+.accordion {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.question {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 2.5rem 1.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin-bottom: 2.5rem;
+}
+
+.wrapper-question {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question-title {
+    margin: 0;
+    color: #1e293b;
+}
+
+.wrapper-answer {
+    box-sizing: border-box;
+    margin-top: 1.5rem;
+    border-top: 1px solid #64748b;
+    padding-top: 1.5rem;
+    display: none;
+}
+
+.question-answer {
+    margin: 0;
+    color: #64748b;
+}
+
+.show-answer .wrapper-answer {
+    display: block;
+}
+
+.plus {
+    display: block;
+}
+
+.show-answer .plus {
+    display: none;
+}
+
+.minus {
+    display: none;
+}
+
+.show-answer .minus {
+    display: block;
+}

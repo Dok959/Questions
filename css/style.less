@@ -1,0 +1,38 @@
+// compress: true
+
+@font: 'Nunito', sans-serif;
+@color-accent: #c59d5f;
+@transition: 0.3s ease-in-out all;
+
+html {
+    font-family: @font;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 1.6rem;
+    background-color: #f8fafc;
+}
+
+main {
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+/* Обертка основного содержимого */
+.container {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Импорты компонентов */
+@import './components/heading.less';
+
+@import './components/accordion.less';
+
+@import './components/btn.less';
